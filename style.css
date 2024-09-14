@@ -1,0 +1,30 @@
+img{
+    width: 500px;
+    height: 700px;
+    border: 8px double lightblue;
+    border-radius: 25px;
+}
+.openings{
+    padding: 10px;
+    display:grid;
+    justify-content: center;
+    border: 5px dotted white;
+    border-radius: 50px;
+}
+iframe{
+    width: 400px;
+    height: 300px;
+}
+body{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width:970px){
+    body{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+    }
+}
